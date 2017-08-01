@@ -1,4 +1,8 @@
 body {
+    .content {
+    padding:30px
+}
+
     background-image: url('../../images/background.png');
 
 }
@@ -20,10 +24,15 @@ nav a {
         max-width:1200px;
         width:90%;
     }
+
+
+
         
         .card {
     background-color: white;
     margin: 0 auto;
     max-width: 1200px;
     width: 90%
+    
+    
 }
