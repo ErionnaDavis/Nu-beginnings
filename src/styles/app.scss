@@ -5,6 +5,9 @@ body {
 
 nav a {
     font-family: 'Spirax', cursive;
+    font-size: 25px;
+    
+    
 }
 
 .card {
@@ -26,4 +29,21 @@ nav a {
     margin: 0 auto;
     max-width: 1200px;
     width: 90%
+}
+
+.side-image{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+
+.logo-image{
+    display: block;
+    
+}
+
+.main-text{
+    font-size: 48px;
+    text-align: center
 }
