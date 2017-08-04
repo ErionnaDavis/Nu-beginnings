@@ -1,0 +1,97 @@
+body {
+  background-image: url("../../images/background.png"); }
+  body #contact {
+    padding: 30px; }
+
+nav a {
+  font-family: 'Spirax', cursive;
+  font-size: 25px; }
+
+.card {
+  background-color: #FFFFFF;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  display: block;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 5px; }
+
+.green-skew {
+  height: 400px;
+  position: relative;
+  background: green;
+  margin: 100px 0; }
+  .green-skew:before {
+    z-index: -1;
+    position: absolute;
+    top: -50px;
+    height: 100px;
+    width: 100%;
+    content: ' ';
+    display: block;
+    box-sizing: content-box;
+    text-overflow: clip;
+    -webkit-transform: skewY(3deg);
+    transform: skewY(3deg);
+    background: green; }
+  .green-skew:after {
+    z-index: -1;
+    content: ' ';
+    position: absolute;
+    bottom: -50px;
+    height: 100px;
+    display: block;
+    width: 100%;
+    box-sizing: content-box;
+    text-overflow: clip;
+    -webkit-transform: skewY(3deg);
+    transform: skewY(3deg);
+    background: green; }
+
+.red-skew {
+  height: 400px;
+  background: white;
+  position: relative;
+  background: green;
+  margin: 100px 0; }
+  .red-skew:before {
+    z-index: -1;
+    position: absolute;
+    top: -50px;
+    height: 100px;
+    width: 100%;
+    content: ' ';
+    display: block;
+    box-sizing: content-box;
+    text-overflow: clip;
+    -webkit-transform: skewY(-3deg green);
+    transform: skewY(-3deg green);
+    background: green; }
+  .red-skew:after {
+    z-index: -1;
+    content: ' ';
+    position: absolute;
+    bottom: -50px;
+    height: 100px;
+    display: block;
+    width: 100%;
+    box-sizing: content-box;
+    text-overflow: clip;
+    -webkit-transform: skewY(-3deg green);
+    transform: skewY(-3deg green);
+    background: green; }
+
+.side-image {
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+.logo-image {
+  display: block; }
+
+.main-text {
+  font-size: 48px;
+  text-align: center; }
+
+h1 {
+  text-align: center; }
