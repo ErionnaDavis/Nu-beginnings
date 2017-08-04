@@ -59,3 +59,26 @@ nav a {
 h1 {
     text-align: center;
 }
+
+
+.page-information {
+    .card {
+        position: relative;
+        min-height: 250px;
+    }
+    h3 {
+        position: absolute;
+        top: 15px;
+        left: 125px;
+    }
+    p {
+        position: absolute;
+        top: 65px;
+        left: 125px;
+    }
+
+
+}
+.content {
+    padding:30px
+}
