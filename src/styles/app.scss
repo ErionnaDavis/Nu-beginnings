@@ -1,9 +1,10 @@
 @import 'skew';
+//pages
 
 body {
-    .content {
-    padding:30px
-}
+    #contact {
+        padding:30px
+    }
 
     background-image: url('../../images/background.png');
 
@@ -12,56 +13,29 @@ body {
 nav a {
     font-family: 'Spirax', cursive;
     font-size: 25px;
-    
-    
 }
 
 .card {
-    background-color: white;
-    margin: 0 auto;
-    max-width: 1200px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 3px 6px rgba(0,0,0,0.5);
+    margin: 20px auto;
+    display: block;
     width: 90%;
-    position: relative;
-}
-
-.card-skew{
-    margin: 100px 0;
-    width: 100%;
-    height: 200px;
-    @include angle-edge($pos-top: topleft, $angle-top: 20deg);
-    background: green;
-}
-
- .swiper-container {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-        
-        .card {
-    background-color: white;
-    margin: 0 auto;
     max-width: 1200px;
-    width: 90%
+    border-radius: 5px;
+}
+
+.green-skew {
+    height: 400px;
+    @include skew-me(3deg, green);
+    margin: 100px 0;
+}
+  
+.red-skew {
+    height: 400px;
+    background: white;
+    @include skew-me(-3deg green);
+    margin: 100px 0;
 }
 
 .side-image{
@@ -79,8 +53,11 @@ nav a {
 .main-text{
     font-size: 48px;
     text-align: center
-}
 
-.body-1{
-    text-align: left;
+   
+}
+.img-circle {
+    border-radius: 30%;
+
+    
 }
