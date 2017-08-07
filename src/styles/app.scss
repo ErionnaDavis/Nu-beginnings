@@ -52,10 +52,8 @@ nav a {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-}
-
-        
-        .card {
+}        
+.card {
     background-color: white;
     margin: 0 auto;
     max-width: 1200px;
@@ -77,4 +75,26 @@ nav a {
 .main-text{
     font-size: 48px;
     text-align: center
+}
+
+.swiper-slide img{
+    display: block;
+    border-radius: 500%;
+    width: 100%;
+
+}
+
+h2{
+    padding: 0 24px 0 24px;
+      font-family: 'Spirax', cursive;
+      font-size: 25px;
+      color: black;
+      text-align: center;
+}
+
+h3{
+    font-family: 'Spirax', cursive;
+      color: white;
+      text-align: center
+    
 }
