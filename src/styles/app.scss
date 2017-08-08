@@ -13,6 +13,12 @@ body {
 nav a {
     font-family: 'Spirax', cursive;
     font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: green;
+    }
 }
 
 .card {
@@ -49,6 +55,21 @@ nav a {
         max-width: 250px;
 
     }
+}
+
+#contact {
+    @include skew-me(-3deg, green);
+    margin: 100px 0;
+    &:before {
+        left: 0;
+    }
+    &:after {
+        left: 0;
+    }
+}
+
+#closing {
+    height: 300px;
 }
 
  .swiper-container {
