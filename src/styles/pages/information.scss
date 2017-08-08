@@ -1,0 +1,19 @@
+.page-information {
+    .card {
+        position: relative;
+        min-height: 250px;
+        img {
+            float: left;
+            margin: 15px 10px;
+        }
+    }
+    h3 {
+        color: green;
+        position: absolute;
+        top: 15px;
+        left: 130px;
+    }
+    p {
+        padding: 75px 15px 15px 15px;
+    }
+}
