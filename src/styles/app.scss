@@ -69,7 +69,14 @@ nav a {
 }
 
 #closing {
-    height: 300px;
+    height: 100px;
+     padding: 30px;
+    .closing {
+        i {
+            font-size: 30px;
+            color: black;
+            float: left;
+            
 }
 
  .swiper-container {
@@ -189,3 +196,8 @@ h1{
 
 // IMPORT PAGES
 @import 'pages/information';
+
+
+    
+
+}
