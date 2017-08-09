@@ -1,6 +1,7 @@
 @import 'skew';
 //pages
-
+// IMPORT PAGES
+@import 'pages/information';
 body {
     #contact {
         padding:30px
@@ -70,8 +71,28 @@ nav a {
 
 #closing {
     height: 100px;
+    position: relative;
+    .side-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-bottom-left-radius: 5px;
+    }
+    .to-top {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .bottom-icon{
+        font-size: 30px;
+    }
     
-    
+}
+
+footer {
+    margin: 30px auto;
+    display: block;
+    text-align: center;
 }
 
  .swiper-container {
@@ -188,20 +209,9 @@ h1{
         }
     }
 }
-.bottom-icon{
-    position: relative;
-    top: 0px;
-    left: 94%;
-    font-size: 30px;
-}
 
-// IMPORT PAGES
-@import 'pages/information';
 
 .success{
     font-family: 'Spirax', cursive;
 }
-
-
-    
 
