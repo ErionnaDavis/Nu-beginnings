@@ -1,7 +1,10 @@
+$fa-font-path:   "../../node_modules/font-awesome/fonts";
 @import 'skew';
+@import '../../node_modules/font-awesome/scss/font-awesome';
 //pages
 // IMPORT PAGES
-@import 'pages/information';
+//@import 'pages/information';
+
 body {
     #contact {
         padding:30px
@@ -213,4 +216,21 @@ h1{
 
 .success{
     font-family: 'Spirax', cursive;
+}
+
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+.bookmark{ 
+    position: relative; 
+    height: 70px; 
+    width: 50px; 
+    padding: 0px; 
+    -webkit-transform: rotate(0deg) skew(0deg); 
+    transform: rotate(0deg) skew(0deg); 
+    border-left: 25px solid green; 
+    border-right: 25px solid green; 
+    border-bottom: 25px solid transparent; 
 }
