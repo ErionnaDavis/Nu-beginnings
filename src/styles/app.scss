@@ -143,6 +143,7 @@ footer {
 }
 
 .logo-image{
+    max-width: 90%;
     display: block;
     margin: 0 auto;
     
@@ -218,19 +219,35 @@ h1{
     font-family: 'Spirax', cursive;
 }
 
-*, *:before, *:after{ 
-    box-sizing: border-box; 
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-} 
+.bookmark-top {
+    display: block;
+    width: 160px;
+    background: green;
+    margin: -15px auto;
+    padding: 15px;
+    h4 {
+        font-weight: bold;
+        color: #fff;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    i.fa {
+        color: #FFF;
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+}
 .bookmark{ 
     position: relative; 
-    height: 70px; 
-    width: 50px; 
+    height: 100px; 
+    width: 150px; 
     padding: 0px; 
     -webkit-transform: rotate(0deg) skew(0deg); 
     transform: rotate(0deg) skew(0deg); 
-    border-left: 25px solid green; 
-    border-right: 25px solid green; 
-    border-bottom: 25px solid transparent; 
+    border-left: 80px solid green; 
+    border-right: 80px solid green; 
+    border-bottom: 50px solid transparent; 
+    margin: 0 auto;
 }
